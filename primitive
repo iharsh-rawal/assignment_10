@@ -1,0 +1,41 @@
+class PrimitiveWrapperDemo {
+   PrimitiveWrapperDemo() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 10;
+      byte var2 = 20;
+      byte var3 = 30;
+      long var4 = 40L;
+      float var6 = 50.5F;
+      double var7 = (double)60.5F;
+      char var9 = 'A';
+      boolean var10 = true;
+      Byte var11 = var1;
+      Short var12 = Short.valueOf(var2);
+      Integer var13 = Integer.valueOf(var3);
+      Long var14 = var4;
+      Float var15 = var6;
+      Double var16 = var7;
+      Character var17 = var9;
+      Boolean var18 = var10;
+      System.out.println("Primitive Values:");
+      System.out.println("byte: " + var1);
+      System.out.println("short: " + var2);
+      System.out.println("int: " + var3);
+      System.out.println("long: " + var4);
+      System.out.println("float: " + var6);
+      System.out.println("double: " + var7);
+      System.out.println("char: " + var9);
+      System.out.println("boolean: " + var10);
+      System.out.println("\nWrapper Values:");
+      System.out.println("Byte: " + var11);
+      System.out.println("Short: " + var12);
+      System.out.println("Integer: " + var13);
+      System.out.println("Long: " + var14);
+      System.out.println("Float: " + var15);
+      System.out.println("Double: " + var16);
+      System.out.println("Character: " + var17);
+      System.out.println("Boolean: " + var18);
+   }
+}

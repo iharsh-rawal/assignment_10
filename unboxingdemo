@@ -1,0 +1,17 @@
+public class UnboxingDemo {
+    public static void main(String[] args) {
+
+        Integer obj1 = 100;
+        Double obj2 = 99.99;
+        Character obj3 = 'A';
+        Boolean obj4 = true;
+        int number = obj1;
+        double price = obj2;
+        char letter = obj3;
+        boolean status = obj4;
+        System.out.println("int: " + number);
+        System.out.println("double: " + price);
+        System.out.println("char: " + letter);
+        System.out.println("boolean: " + status);
+    }
+}
